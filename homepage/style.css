@@ -1,4 +1,49 @@
 body{
-    background-color: aqua;
+    background-color: #7393B3;
     text-align: center;
 }
+
+    h1 { 
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+        font-size: 9rem;
+    }
+
+    /*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width:100%;
+   font-size:32px;
+   margin:5px 0;
+   border:none;
+   padding:10px;
+   outline:none;
+   display:inline-block;
+}
+.search-bar{
+   width:80%;
+}
+.submit-button{
+   width:15%;
+   background:#000;
+   color:#FFF;
+}
+
+
+    
+    
+
+            
