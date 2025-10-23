@@ -14,7 +14,7 @@ body{
         font-size: 9rem;
     }
 
-    /*
+/*
 =================================================
 SEARCH
 =================================================
@@ -40,6 +40,31 @@ input{
    width:15%;
    background:#000;
    color:#FFF;
+}
+
+
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks a{
+   text-decoration: none;
+}
+.bookmarks{
+   padding:30px;
+   clear:both;
+}
+.bookmarks i{
+   font-size:42px;
+   margin:0 20px;
+   color:#000000;
+   transition:.15s;
+   vertical-align: top;
+}
+.bookmarks i:hover{
+   font-size:72px;
+   position:relative;
 }
 
 
